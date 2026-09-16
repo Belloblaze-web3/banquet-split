@@ -44,3 +44,13 @@ Yes
 No
 1 3
 ```
+
+## Tests
+
+Run the unit tests with:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+The test suite covers the sample, adjacent vertices, same-vertex queries, and longer paths. Additional inputs are in `tests/sample_input.txt` and `tests/edge_cases_input.txt`.
